@@ -1,0 +1,14 @@
+####################################创建MAVEN项目#####################################################
+1. mvn archetype:generate -DgroupId=org.seckill -DartifactId=seckill -DarchetypeArtifactId=maven-archetype-webapp -DarchetypeCatalog=local
+
+2. 修改web.xml,为3.0+以上
+
+3. 创建java目录,test目录
+
+4. 导入各种依赖
+
+5. 初始化数据库
+
+6. 设计DAO(数据访问)层,及单元测试
+
+7. 设计Service层,DTO(数据传输)层,异常处理.

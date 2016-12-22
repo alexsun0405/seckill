@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE configuration
+        PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-config.dtd">
+<configuration>
+    <!-- 配置全局属性-->
+    <settings>
+        <!--强制使用自动生成主键-->
+        <setting name="useGeneratedKeys" value="true"/>
+        <!--使用列标签代替列名。默认为true,可以不配置 例如: name as username -->
+        <setting name="useColumnLabel" value="true"/>
+        <!--开启自动驼峰命名规则，即从经典数据库列名 A_COLUMN 到经典 Java 属性名 aColumn 的类似映射。-->
+        <setting name="mapUnderscoreToCamelCase" value="true"/>
+    </settings>
+</configuration>
